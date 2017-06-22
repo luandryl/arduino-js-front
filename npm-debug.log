@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/luan/.nvm/versions/node/v7.7.4/bin/node',
+1 verbose cli   '/home/luan/.nvm/versions/node/v7.7.4/bin/npm',
+1 verbose cli   'start' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.4
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle rolinhas-front@0.0.1~prestart: rolinhas-front@0.0.1
+6 silly lifecycle rolinhas-front@0.0.1~prestart: no script for prestart, continuing
+7 info lifecycle rolinhas-front@0.0.1~start: rolinhas-front@0.0.1
+8 verbose lifecycle rolinhas-front@0.0.1~start: unsafe-perm in lifecycle true
+9 verbose lifecycle rolinhas-front@0.0.1~start: PATH: /home/luan/.nvm/versions/node/v7.7.4/lib/node_modules/npm/bin/node-gyp-bin:/home/luan/git/rolinha-front/node_modules/.bin:/home/luan/.nvm/versions/node/v7.7.4/bin:/home/luan/bin:/home/luan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+10 verbose lifecycle rolinhas-front@0.0.1~start: CWD: /home/luan/git/rolinha-front
+11 silly lifecycle rolinhas-front@0.0.1~start: Args: [ '-c', 'node init.js' ]
+12 silly lifecycle rolinhas-front@0.0.1~start: Returned: code: 1  signal: null
+13 info lifecycle rolinhas-front@0.0.1~start: Failed to exec start script
+14 verbose stack Error: rolinhas-front@0.0.1 start: `node init.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/home/luan/.nvm/versions/node/v7.7.4/lib/node_modules/npm/lib/utils/lifecycle.js:279:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:194:7)
+14 verbose stack     at ChildProcess.<anonymous> (/home/luan/.nvm/versions/node/v7.7.4/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:194:7)
+14 verbose stack     at maybeClose (internal/child_process.js:899:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid rolinhas-front@0.0.1
+16 verbose cwd /home/luan/git/rolinha-front
+17 error Linux 4.8.0-54-generic
+18 error argv "/home/luan/.nvm/versions/node/v7.7.4/bin/node" "/home/luan/.nvm/versions/node/v7.7.4/bin/npm" "start"
+19 error node v7.7.4
+20 error npm  v4.1.2
+21 error code ELIFECYCLE
+22 error rolinhas-front@0.0.1 start: `node init.js`
+22 error Exit status 1
+23 error Failed at the rolinhas-front@0.0.1 start script 'node init.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the rolinhas-front package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node init.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs rolinhas-front
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls rolinhas-front
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

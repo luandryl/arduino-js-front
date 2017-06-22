@@ -1,0 +1,66 @@
+.aplicacao{
+	display: none;
+}
+
+.erro{
+	display: block;
+	background-image: url("../img/erro.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50%;
+	height: 100%;
+	margin:auto;
+	padding-top: 400px;
+	display: none;
+}
+
+.erro h1 ,p {
+	text-align: center;
+}
+.ligado{
+	background-image: url("../img/ligada.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 30%;
+	margin: auto;
+	height: 230px;
+
+}
+
+.desligado{
+	background-image: url("../img/desligada.png");
+	background-repeat: no-repeat;
+	background-position: center;
+
+	width: 30%;
+	height: 230px;
+	margin: auto;
+}
+
+.botoes{
+	width: 30%;
+	margin: auto;
+	padding-top: 40px;
+}
+
+button{
+	background-color: blue;
+	display: block;
+	width: 70%;
+	margin: auto;
+	margin-top: 15px;
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+table{
+	width: 80%;
+	margin: auto;
+	background-color: blue;
+}
+
+tr{
+	width: 100%;
+}
